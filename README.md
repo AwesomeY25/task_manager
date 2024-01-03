@@ -1,15 +1,18 @@
 # Installations Needed
+
 Software and tools that need to be installed:
+
 - [Python](https://www.python.org/)
 - [Node.js](https://nodejs.org/)
 
 # Running the Application
-### Run Django development server
-cd backend
-cd task_manager_be
+
+## Run Django Development Server
+
+```bash
+cd backend/task_manager_be
 python manage.py runserver
 
-### Run Vue.js development server
-cd frontend
-cd task_manager_fe
+```bash
+cd frontend/task_manager_fe
 npm run dev
