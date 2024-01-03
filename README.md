@@ -1,7 +1,3 @@
-- [Installations Needed](#iinstallation-needed)
-- [Running the Application](#running-the-application)
-
-
 # Installations Needed
 Software and tools that need to be installed:
 - [Python](https://www.python.org/)
@@ -16,5 +12,4 @@ python manage.py runserver
 ### Run Vue.js development server
 cd frontend
 cd task_manager_fe
-#### Dev Environment
 npm run dev
