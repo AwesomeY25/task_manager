@@ -12,7 +12,11 @@ Software and tools that need to be installed:
 ```bash
 cd backend/task_manager_be
 python manage.py runserver
+```
+
+## Run Vue.js Development Server
 
 ```bash
 cd frontend/task_manager_fe
 npm run dev
+```
