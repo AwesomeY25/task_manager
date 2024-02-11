@@ -1,5 +1,5 @@
 <template>
-    <div class="col-8 m-2 align-items-center">
+    <div class="col-8 align-items-center">
         <div class="row m-2">
             <div class="col">
                 <label for="fname">First name:</label><br>

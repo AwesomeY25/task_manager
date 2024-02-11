@@ -8,7 +8,7 @@
         </div>
         <div class="row m-2">
             <div class="col">
-                <label for="lname">Last name:</label><br>
+                <label class="label-align-left" for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname">
             </div>
         </div>
