@@ -7,8 +7,8 @@
        </div>
 
         <!-- Main Body -->
-        <div class="col">
-          <InternForm/>
+        <div class="col-8">
+          <ConcernForm/>
         </div>
 
        <!-- Second Part -->
@@ -20,12 +20,12 @@
 </template>
 
 <script>
-import InternForm from './components/InternForm.vue'
+import ConcernForm from './components/ConcernForm.vue'
 
 export default {
   name: 'App',
   components: {
-    InternForm
+    ConcernForm
   }
 }
 </script>
