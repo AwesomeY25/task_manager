@@ -1,16 +1,20 @@
 <template>
-  <div class="container p-2" id="app">
-    <!-- Side Bar -->
-    <div class="col-2">
-    </div>
+  <div class="container my-2" id="app">
+    <div class="row">
+       <!-- Second Part -->
+       <div class="col-2">
+        <h2>Side Bar 1</h2>
+       </div>
 
-    <!-- Main Body -->
-    <div class="col-8">
-      <ConcernForm/>
-    </div>
+        <!-- Main Body -->
+        <div class="col-8">
+          <ConcernForm/>
+        </div>
 
-    <!-- Second Part -->
-    <div class="col-2">
+       <!-- Second Part -->
+       <div class="col-2">
+        <h2>Side Bar 2</h2>
+      </div>
     </div>
   </div>
 </template>
