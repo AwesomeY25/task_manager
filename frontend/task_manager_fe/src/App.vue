@@ -6,7 +6,7 @@
 
     <!-- Main Body -->
     <div class="col-8">
-      <ConcernForm/>
+      <VerifyInterns/>
     </div>
 
     <!-- Second Part -->
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import ConcernForm from './components/ConcernForm.vue'
+import VerifyInterns from './components/VerifyInterns.vue'
 
 export default {
   name: 'App',
   components: {
-    ConcernForm
+    VerifyInterns
   }
 }
 </script>
