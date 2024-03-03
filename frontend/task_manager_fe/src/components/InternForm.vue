@@ -172,7 +172,7 @@ export default {
       formData: {
         first_name: '',
         last_name: '',
-        mid_initial: 'C',
+        mid_initial: '.',
         birthday: '',
         gender: 'Prefer Not To Say',
         mobile_number: '',
