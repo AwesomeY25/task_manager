@@ -3,29 +3,29 @@
     <div class="row">
        <!-- Second Part -->
        <div class="col-2">
-        <h2>Side Bar 1</h2>
+        <h2> </h2>
        </div>
 
         <!-- Main Body -->
         <div class="col-8">
-          <ConcernForm/>
+          <InternForm/>
         </div>
 
        <!-- Second Part -->
        <div class="col-2">
-        <h2>Side Bar 2</h2>
+        <h2> </h2>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ConcernForm from './components/ConcernForm.vue'
+import InternForm from './components/InternForm.vue'
 
 export default {
   name: 'App',
   components: {
-    ConcernForm
+    InternForm
   }
 }
 </script>
