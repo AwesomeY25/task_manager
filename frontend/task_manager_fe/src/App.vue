@@ -6,10 +6,10 @@
         <h2> </h2>
        </div>
 
-        <!-- Main Body -->
-        <div class="col-8">
-          <InternForm/>
-        </div>
+    <!-- Main Body -->
+    <div class="col-8">
+      <VerifyInterns/>
+    </div>
 
        <!-- Second Part -->
        <div class="col-2">
@@ -20,11 +20,14 @@
 </template>
 
 <script>
+
+import VerifyInterns from './components/VerifyInterns.vue'
 import InternForm from './components/InternForm.vue'
 
 export default {
   name: 'App',
   components: {
+    VerifyInterns
     InternForm
   }
 }
