@@ -6,7 +6,7 @@
 
     <!-- Main Body -->
     <div class="col-8">
-      <VerifyInterns/>
+      <GenerateReport/>
     </div>
 
     <!-- Second Part -->
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import VerifyInterns from './components/VerifyInterns.vue'
+import GenerateReport from './components/GenerateReport.vue'
 
 export default {
   name: 'App',
   components: {
-    VerifyInterns
+    GenerateReport
   }
 }
 </script>
